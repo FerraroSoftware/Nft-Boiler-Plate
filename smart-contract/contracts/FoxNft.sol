@@ -126,7 +126,7 @@ contract FoxNft is ERC721AQueryable, Ownable, ReentrancyGuard {
         return 1;
     }
 
-    // TODO: look into this function from the docs
+    // Returns the Uniform Resource Identifier (URI) for tokenId token
     function tokenURI(uint256 _tokenId)
         public
         view
@@ -158,6 +158,7 @@ contract FoxNft is ERC721AQueryable, Ownable, ReentrancyGuard {
                 : "";
     }
 
+    // Setter functions below
     function setRevealed(bool _state) public onlyOwner {
         revealed = _state;
     }
