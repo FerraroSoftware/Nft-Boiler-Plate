@@ -12,8 +12,8 @@ const CollectionConfig: CollectionConfigInterface = {
   contractName: 'FoxNft',
   tokenName: 'My NFT Token',
   tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
-  maxSupply: 10000,
+  hiddenMetadataUri: 'ipfs://QmfPyJG7jFZSfiYnmvwkWirZPdyiaoKNgokAhhwD5J5vbp/hidden.json',
+  maxSupply: 12,
   whitelistSale: {
     price: 0.05,
     maxMintAmountPerTx: 1,
