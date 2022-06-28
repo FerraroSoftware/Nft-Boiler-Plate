@@ -100,6 +100,7 @@ task('rename-contract', 'Renames the smart contract replacing all occurrences in
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
+const PK = process.env.NETWORK_TESTNET_PRIVATE_KEY || "";
 const config: HardhatUserConfig = {
   solidity: {
     version: '0.8.9',
@@ -115,6 +116,11 @@ const config: HardhatUserConfig = {
       url: 'http://localhost:24012/rpc',
       timeout: 60000,
       gasMultiplier: DEFAULT_GAS_MULTIPLIER,
+    },
+    rinkeby: {
+      chainId: 4,
+      url: process.env.NETWORK_TESTNET_URL,
+      accounts: [PK],
     },
   },
   gasReporter: {
