@@ -38,10 +38,21 @@ export default function Header() {
   });
 
   return (
-    <div className=" bg-red-300 h-96">
-      <button className="bg-orange-500 text-white px-4 py-2 rounded-md justify-center text-1xl font-medium hover:bg-orange-700 transition duration-300">
-        Mint
-      </button>
-    </div>
+    <section id="mint" className="">
+      {/* <!-- mint Container --> */}
+      <div className="container mx-auto px-6 text-center md:pt-20 pb-52">
+        <h1 className="max-w-2xl mx-auto mb-10 text-3xl font-bold text-white leading-normal mt-14 md:text-6xl">
+          Join the Fox Foundation and Help Save a Fox
+        </h1>
+        <p className="max-w-sm mx-auto mb-10 text-gray-400 text-sm md:max-w-xl md:text-lg">
+          30% of proceeds during minting phase will be donated directly to the
+          fox foundation. Jump into the den below to learn more about our sassy
+          NFT foxes
+        </p>
+        <button className="p-3 rounded-full w-52 bg-orange-400 hover:scale-105">
+          Mint
+        </button>
+      </div>
+    </section>
   );
 }
