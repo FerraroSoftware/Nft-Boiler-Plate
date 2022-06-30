@@ -8,33 +8,22 @@ import { useNotification } from "web3uikit";
 export default function Header() {
   const { chainId: chainIdHex, isWeb3Enabled } = useMoralis();
   const chainId = parseInt(chainIdHex);
-  const raffleAddress =
+  const FoxNft =
     chainId in contractAddresses ? contractAddresses[chainId][0] : null;
-  // starting value 0
-  const [entranceFee, setEntranceFee] = useState("0");
-  const [numPlayers, setNumPlayers] = useState("0");
-  const [recentWinner, setRecentWinner] = useState("0");
 
   // used for pop ups
   const dispatch = useNotification();
 
   const {
-    runContractFunction: enterRaffle,
+    runContractFunction: setPaused,
     isLoading,
     isFetching,
   } = useWeb3Contract({
     abi: abi,
     contractAddress: raffleAddress,
-    functionName: "enterRaffle",
+    functionName: "setPaused",
     params: {},
     msgValue: entranceFee,
-  });
-
-  const { runContractFunction: getEntranceFee } = useWeb3Contract({
-    abi: abi,
-    contractAddress: raffleAddress,
-    functionName: "getEntranceFee",
-    params: {},
   });
 
   return (
