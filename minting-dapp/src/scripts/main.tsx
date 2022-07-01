@@ -3,6 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
+import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import { ToastContainer } from 'react-toastify';
 
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           closeOnClick={true}
           pauseOnHover={true}
           theme='light' />
+    <Header></Header>
     <Dapp />
   </>, document.getElementById('minting-dapp'));
 });

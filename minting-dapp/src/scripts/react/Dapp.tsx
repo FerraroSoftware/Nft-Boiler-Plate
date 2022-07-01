@@ -238,6 +238,7 @@ export default class Dapp extends React.Component<Props, State> {
             }
           </>
         :
+        // This the code for when we arent connected yet
           <div className="no-wallet">
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
 

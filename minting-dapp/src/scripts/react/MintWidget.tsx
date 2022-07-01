@@ -64,8 +64,10 @@ export default class MintWidget extends React.Component<Props, State> {
   render() {
     return (
       <>
+      {/* need to check if  */}
         {this.canMint() ?
           <div className={`mint-widget ${this.props.loading ? 'animate-pulse saturate-0 pointer-events-none' : ''}`}>
+            {/* what we preview before minting the NFT i think */}
             <div className="preview">
               <img src="/build/images/preview.png" alt="Collection preview" />
             </div>
@@ -74,6 +76,7 @@ export default class MintWidget extends React.Component<Props, State> {
               <strong>Total price:</strong> {utils.formatEther(this.props.tokenPrice.mul(this.state.mintAmount))} {this.props.networkConfig.symbol}
             </div>
 
+          {/* here we control how many we mint and the mint button */}
             <div className="controls">
               <button className="decrease" disabled={this.props.loading} onClick={() => this.decrementMintAmount()}>-</button>
               <span className="mint-amount">{this.state.mintAmount}</span>
@@ -83,6 +86,7 @@ export default class MintWidget extends React.Component<Props, State> {
           </div>
           :
           <div className="cannot-mint">
+            {/* check out that juicy emoji! */}
             <span className="emoji">⏳</span>
 
             {this.props.isWhitelistMintEnabled ? <>You are not included in the <strong>whitelist</strong>.</> : <>The contract is <strong>paused</strong>.</>}<br />

@@ -1,34 +1,36 @@
 body {
   @apply p-6;
-  @apply min-h-screen;
+  // @apply min-h-screen;
 
-  @apply font-sans;
+  // @apply font-sans;
 
   // Simple background with color gradient
-  @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
+  // @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
+  background-color: #274027;
+
 
   // Fullscreen background image example
   //background-image: url('../../images/background.jpg');
   //@apply bg-center bg-cover bg-fixed;
 }
 
-a, a:link, a:visited {
-  @apply font-semibold;
-  @apply text-links-txt;
+// a, a:link, a:visited {
+//   @apply font-semibold;
+//   @apply text-links-txt;
 
-  &:hover {
-    @apply underline;
-    @apply text-links-hover_txt;
-  }
-}
+//   &:hover {
+//     @apply underline;
+//     @apply text-links-hover_txt;
+//   }
+// }
 
 strong {
   @apply font-semibold;
 }
 
-main {
-  @apply flex flex-col;
-}
+// main {
+//   @apply flex flex-col;
+// }
 
 #logo {
   @apply m-auto;
@@ -76,43 +78,43 @@ span.emoji {
   }
 }
 
-button {
-  @apply py-2 px-6;
+// button {
+//   @apply py-2 px-6;
 
-  @apply rounded-full;
+//   @apply rounded-full;
   
-  @apply font-semibold;
-  @apply text-btn-txt;
-  @apply bg-btn-bg;
-  @apply border border-btn-border;
-  @apply shadow-sm;
+//   @apply font-semibold;
+//   @apply text-btn-txt;
+//   @apply bg-btn-bg;
+//   @apply border border-btn-border;
+//   @apply shadow-sm;
 
-  &:hover {
-    @apply text-btn-hover_txt;
-    @apply bg-btn-hover_bg;
-    @apply border-btn-hover_border;
-  }
+//   &:hover {
+//     @apply text-btn-hover_txt;
+//     @apply bg-btn-hover_bg;
+//     @apply border-btn-hover_border;
+//   }
 
-  &.primary {
-    @apply text-btn_primary-txt;
-    @apply bg-btn_primary-bg;
-    @apply border-btn_primary-border;
+//   &.primary {
+//     @apply text-btn_primary-txt;
+//     @apply bg-btn_primary-bg;
+//     @apply border-btn_primary-border;
 
-    &:hover {
-      @apply text-btn_primary-hover_txt;
-      @apply bg-btn_primary-hover_bg;
-      @apply border-btn_primary-hover_border;
-    }
+//     &:hover {
+//       @apply text-btn_primary-hover_txt;
+//       @apply bg-btn_primary-hover_bg;
+//       @apply border-btn_primary-hover_border;
+//     }
 
-    &:disabled {
-      @apply opacity-30;
+//     &:disabled {
+//       @apply opacity-30;
 
-      &:hover {
-        @apply cursor-not-allowed;
-      }
-    }
-  }
-}
+//       &:hover {
+//         @apply cursor-not-allowed;
+//       }
+//     }
+//   }
+// }
 
 input[type=text] {
   @apply py-2 px-4;
