@@ -14,17 +14,17 @@ export default function Header() {
   // used for pop ups
   const dispatch = useNotification();
 
-  const {
-    runContractFunction: setPaused,
-    isLoading,
-    isFetching,
-  } = useWeb3Contract({
-    abi: abi,
-    contractAddress: raffleAddress,
-    functionName: "setPaused",
-    params: {},
-    msgValue: entranceFee,
-  });
+  // const {
+  //   runContractFunction: setPaused,
+  //   isLoading,
+  //   isFetching,
+  // } = useWeb3Contract({
+  //   abi: abi,
+  //   contractAddress: raffleAddress,
+  //   functionName: "setPaused",
+  //   params: {},
+  //   msgValue: entranceFee,
+  // });
 
   return (
     <section id="mint" className="">
