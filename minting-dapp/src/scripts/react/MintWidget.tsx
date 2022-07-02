@@ -101,9 +101,9 @@ export default class MintWidget extends React.Component<Props, State> {
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
-                  {!this.canMint() ? (
+                  {this.canMint() ? (
                     <div
-                      className={`mint-widget ${
+                      className={`flex flex-col items-center rounded-lg overflow-hidden bg-orange-500 text-white shadow p-4 ${
                         this.props.loading
                           ? "animate-pulse saturate-0 pointer-events-none"
                           : ""
@@ -123,7 +123,7 @@ export default class MintWidget extends React.Component<Props, State> {
                       </div>
 
                       {/* here we control how many we mint and the mint button */}
-                      <div className="controls">
+                      <div className="controls p-4">
                         <button
                           className="decrease"
                           disabled={this.props.loading}
@@ -131,7 +131,7 @@ export default class MintWidget extends React.Component<Props, State> {
                         >
                           -
                         </button>
-                        <span className="mint-amount">
+                        <span className="mint-amount p-4">
                           {this.state.mintAmount}
                         </span>
                         <button
@@ -142,17 +142,11 @@ export default class MintWidget extends React.Component<Props, State> {
                           +
                         </button>
                       </div>
-                      <button
-                        className="primary"
-                        disabled={this.props.loading}
-                        onClick={() => this.mint()}
-                      >
-                        Mint
-                      </button>
+                      
 
                       <div>
                         <button
-                          className="bg-orange-500 text-white px-4 py-2 mx-2 rounded-md text-1xl font-medium hover:bg-orange-700 transition duration-30"
+                          className="bg-orange-300 text-white px-4 py-2 mx-2 rounded-md text-1xl font-medium hover:bg-orange-500 transition duration-30"
                           disabled={this.props.loading}
                           onClick={() => this.mint()}
                         >
@@ -185,7 +179,7 @@ export default class MintWidget extends React.Component<Props, State> {
             </div>
 
             {/* Hero image */}
-            <div>
+            {/* <div>
               <div className="relative flex  mb-8">
                 <div className="flex flex-col ">
                   <img
@@ -195,74 +189,10 @@ export default class MintWidget extends React.Component<Props, State> {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-        {/* need to check if  */}
-        {this.canMint() ? (
-          <div
-            className={`mint-widget ${
-              this.props.loading
-                ? "animate-pulse saturate-0 pointer-events-none"
-                : ""
-            }`}
-          >
-            {/* what we preview before minting the NFT i think */}
-            <div className="preview">
-              <img src="/build/images/preview.png" alt="Collection preview" />
-            </div>
-
-            <div className="price">
-              <strong>Total price:</strong>{" "}
-              {utils.formatEther(
-                this.props.tokenPrice.mul(this.state.mintAmount)
-              )}{" "}
-              {this.props.networkConfig.symbol}
-            </div>
-
-            {/* here we control how many we mint and the mint button */}
-            <div className="controls">
-              <button
-                className="decrease"
-                disabled={this.props.loading}
-                onClick={() => this.decrementMintAmount()}
-              >
-                -
-              </button>
-              <span className="mint-amount">{this.state.mintAmount}</span>
-              <button
-                className="increase"
-                disabled={this.props.loading}
-                onClick={() => this.incrementMintAmount()}
-              >
-                +
-              </button>
-              <button
-                className="primary"
-                disabled={this.props.loading}
-                onClick={() => this.mint()}
-              >
-                Mint
-              </button>
-            </div>
-          </div>
-        ) : (
-          <div className="cannot-mint">
-            {/* check out that juicy emoji! */}
-            <span className="emoji">⏳</span>
-            {this.props.isWhitelistMintEnabled ? (
-              <>
-                You are not included in the <strong>whitelist</strong>.
-              </>
-            ) : (
-              <>
-                The contract is <strong>paused</strong>.
-              </>
-            )}
-            <br />
-            Please come back during the next sale!
-          </div>
-        )}
+        
       </>
     );
   }
