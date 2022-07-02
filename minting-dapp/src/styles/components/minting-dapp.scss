@@ -168,7 +168,7 @@
     @apply overflow-hidden;
 
     @apply text-popups-txt text-center;
-    @apply bg-popups-bg;
+    @apply bg-orange-500;
     @apply shadow;
 
     .preview {
@@ -206,6 +206,7 @@
 
       .decrease, .mint-amount {
         @apply border-r border-popups-internal_border;
+        @apply p-4;
       }
 
       .mint-amount {
