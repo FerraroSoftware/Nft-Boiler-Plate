@@ -8,15 +8,20 @@ https://rinkeby.etherscan.io/address/0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53#
 ### Address
 0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53
 
+### Components for DAPP
+- Header - Has connect to wallet
+- Hero Section - Includes Minting button when live
+
+
 ## Main features
-- extremely high gas efficiency (users are going to pay lower gas fees compared to traditional collections)
-- whitelist support with customizable list size (using a Merkle Tree for verification)
-- automated contract verification through block explorers (e.g. Etherscan)
-- simple CLI commands that guide you through all the sale steps (whitelist, pre-sale, public sale)
-- built as a Hardhat project with TypeScript support for a better development experience
-- includes a fully-featured minting DAPP (React + TypeScript + SCSS + Webpack)
-- full support for contract interaction through block explorers (e.g. Etherscan), for all the users that do not trust custom DAPPs (including the `whitelistMint(...)` function)
-- customizable minting DAPP (from basic branding to complete customization)
+- Extremely high gas efficiency (users are going to pay lower gas fees compared to traditional collections)
+- Whitelist support with customizable list size (using a Merkle Tree for verification)
+- Automated contract verification through block explorers (e.g. Etherscan)
+- Simple CLI commands that guide you through all the sale steps (whitelist, pre-sale, public sale)
+- Built as a Hardhat project with TypeScript support for a better development experience
+- Includes a fully-featured minting DAPP (React + TypeScript + SCSS + Webpack)
+- Full support for contract interaction through block explorers (e.g. Etherscan), for all the users that do not trust custom DAPPs (including the `whitelistMint(...)` function)
+- Customizable minting DAPP (from basic branding to complete customization)
 
 ### Services
 - Etherscan free API key _(optional: used for the automated contract verificiation, as well as retrieving the current values for gas cost estimation)_
