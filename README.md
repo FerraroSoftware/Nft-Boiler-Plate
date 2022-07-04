@@ -15,6 +15,10 @@ https://rinkeby.etherscan.io/address/0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53#
 - Header - Has connect to wallet
 - Hero Section - Includes Minting button when live
 
+### TODO:
+- Add remaining sections of website
+- enable light/dark mode
+- figure out how to show mint button pretty
 
 ## Main features
 - Extremely high gas efficiency (users are going to pay lower gas fees compared to traditional collections)
