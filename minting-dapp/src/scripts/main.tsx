@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
 import Hero from './react/Hero';
+import Features from './react/Features'
 import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import NetworkConfigInterface from '../../../smart-contract/lib/NetworkConfigInterface';
@@ -34,5 +35,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     whitelistMintTokens={(mintAmount) => this.whitelistMintTokens(mintAmount)}
                     loading={this.state.loading}></Hero> */}
     <Dapp />
+    <Features></Features>
   </>, document.getElementById('minting-dapp'));
 });
