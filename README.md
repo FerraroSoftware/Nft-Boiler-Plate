@@ -14,6 +14,7 @@ https://rinkeby.etherscan.io/address/0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53#
 ### Components for DAPP
 - Header - Has connect to wallet
 - Hero Section - Includes Minting button when live
+- Features Section
 
 ### TODO:
 - Add remaining sections of website
