@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
 import Hero from './react/Hero';
 import Features from './react/Features'
+import Testimonial from './react/Testimonial'
 import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import NetworkConfigInterface from '../../../smart-contract/lib/NetworkConfigInterface';
@@ -36,5 +37,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     loading={this.state.loading}></Hero> */}
     <Dapp />
     <Features></Features>
+    <Testimonial></Testimonial>
   </>, document.getElementById('minting-dapp'));
 });
