@@ -10,6 +10,7 @@ import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import NetworkConfigInterface from '../../../smart-contract/lib/NetworkConfigInterface';
 import { ToastContainer } from 'react-toastify';
+import RoadMap from './react/RoadpMap';
 
 if (document.title === '') {
   document.title = CollectionConfig.tokenName;
@@ -38,5 +39,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     <Dapp />
     <Features></Features>
     <Testimonial></Testimonial>
+    <RoadMap></RoadMap>
   </>, document.getElementById('minting-dapp'));
 });
