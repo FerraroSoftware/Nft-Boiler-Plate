@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
 import Hero from './react/Hero';
 import Features from './react/Features'
+import FAQ from './react/FAQ'
 import Testimonial from './react/Testimonial'
 import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
@@ -40,5 +41,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     <Features></Features>
     <Testimonial></Testimonial>
     <RoadMap></RoadMap>
+    <FAQ></FAQ>
   </>, document.getElementById('minting-dapp'));
 });

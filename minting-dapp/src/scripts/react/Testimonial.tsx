@@ -31,9 +31,9 @@ export default class Testimonial extends React.Component {
             >
               <img src="/build/images/bluefox.svg" className="w-24 -mt-14" alt="" />
               <h5 className="text-3xl font-serif underline font-bold text-foxOrange">
-                Big Tony
+              The Bean
               </h5>
-              <p className="italic text-2xl text-orange-400">Blockchain Developer</p>
+              <p className="italic text-2xl text-orange-400">Artist</p>
             </div>
   
             {/* <!-- Testimonial 3 --> */}
@@ -42,9 +42,9 @@ export default class Testimonial extends React.Component {
             >
               <img src="/build/images/bluefox.svg" className="w-24 -mt-14" alt="" />
               <h5 className="text-3xl font-serif underline font-bold text-foxOrange">
-                Bean
+                Big Tony
               </h5>
-              <p className="italic text-2xl text-orange-400">Artist</p>
+              <p className="italic text-2xl text-orange-400">Blockchain Developer</p>
             </div>
           </div>
         </div>
