@@ -13,7 +13,7 @@ export default class RoadMap extends React.Component {
               {/* <!-- timeline color line --> */}
               <div
                 className="border-2-2 absolute border-orange-400 h-full border"
-                style={{left: "50%"}}
+                style={{ left: "50%" }}
               ></div>
               {/* <!-- right timeline --> */}
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
@@ -107,37 +107,77 @@ export default class RoadMap extends React.Component {
           </div>
         </section>
 
+        {/* section timeline */}
+        {/* <div className="container mx-auto w-full h-full bg-blue-400 "> */}
+        <div className="relative wrap mx-auto overflow-hidden p-20 pb-10 h-full  bg-red-400">
+          {/* this is the line */}
+          <ol className="relative border-l-4 border-gray-200 dark:border-yellow-700 md:inset-1/2">
+            <div className="flex bg-blue-400">
+              <li className="mb-10 ml-4">
+                <div className="absolute w-6 h-6 bg-gray-200 rounded-full mt-1.5 -left-3.5 border border-white dark:border-gray-900 dark:bg-orange-300"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-orange-400 dark:text-orange-400">
+                  Phase 1
+                </time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Application UI code in Tailwind CSS
+                </h3>
 
-{/* section timeline */}
-<div className="container mx-auto w-full h-full ">
-<div className="relative wrap overflow-hidden p-20 pb-10 h-full">
-   {/* this is the line */}
-        <ol className="relative border-l border-gray-200 dark:border-yellow-700 md:inset-1/2"
-        >                  
-    <li className="mb-10 ml-4">
-      {/* className="border-2-2 absolute border-orange-400 h-full border"
-                style={{left: "50%"}} */}
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-blue-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Application UI code in Tailwind CSS</h3>
-        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
-        <a href="#" className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
-    </li>
-    <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
-        <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-    </li>
-    <li className="ml-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind CSS</h3>
-        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-    </li>
-</ol>
-</div>
-</div>
+                <p className="mb-4 text-base font-normal text-gray-500 dark:text-green-400">
+                  After drop we will list Fox Squad on the major rarity sites
+                  like Rarity Tools. We will also start the process on becoming
+                  Verified on OpenSea.
+                </p>
+              </li>
+            </div>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-6 h-6 bg-gray-200 rounded-full mt-1.5 -left-3.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Phase 2
+              </time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Marketing UI design in Figma
+              </h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                STAKING + COIN We have plans to create a staking system that
+                allows you to earn an ERC20 coin. It will be possible to stake
+                your NFTs from the main collection or the other two collections.
+                Details will follow, and keep in mind that this is a long-term
+                project.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-6 h-6 bg-gray-200 rounded-full mt-1.5 -left-3.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Phase 3
+              </time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                E-Commerce UI code in Tailwind CSS
+              </h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                We will create a snapshot and allow all holders to claim one or
+                more loot boxes filled with ETH prizes, discount deals,
+                whitelist spots for other projects and even some NFTs.
+              </p>
+            </li>
+            <li className="ml-4">
+              <div className="absolute w-6 h-6 bg-gray-200 rounded-full mt-1.5 -left-3.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Phase 4
+              </time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                E-Commerce UI code in Tailwind CSS
+              </h3>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                We will develop a workshop that allows you to mix and match
+                traits from the foxes you are currently holding (plus some other
+                traits) and mint a Baby Fox version for free - just pay for gas.
+                You will be able to mint one Baby Fox NFT per Fox Squad NFT that
+                you hold in your wallet.
+              </p>
+            </li>
+          </ol>
+        </div>
+        {/* </div> */}
       </>
     );
   }
