@@ -1,5 +1,7 @@
 import React from 'react';
 // import ScriptTag from 'react-script-tag';
+// import { Helmet } from 'react-helmet';
+// const {Helmet} = require('react-helmet')
 
 
 export default class FAQ extends React.Component {
@@ -263,6 +265,8 @@ export default class FAQ extends React.Component {
           </dl>
         </div>
       </div>
+
+      {/* <Helmet>yes</Helmet> */}
       {/* <ScriptTag type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
       crossorigin="anonymous" />
