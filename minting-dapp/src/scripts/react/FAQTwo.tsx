@@ -16,7 +16,7 @@ export default class FAQTwo extends React.Component {
 
           <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-16 gap-x-20">
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -35,7 +35,7 @@ export default class FAQTwo extends React.Component {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -50,7 +50,7 @@ export default class FAQTwo extends React.Component {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -67,7 +67,7 @@ export default class FAQTwo extends React.Component {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -84,7 +84,7 @@ Only spend money if you can afford it!
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
@@ -100,7 +100,7 @@ Only spend money if you can afford it!
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4">
