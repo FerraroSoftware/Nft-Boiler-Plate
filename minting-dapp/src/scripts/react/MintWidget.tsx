@@ -97,7 +97,7 @@ export default class MintWidget extends React.Component<Props, State> {
                   new owner to help them survive in the metaverse.
                 </p>
                 <div
-                  className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+                  className="max-w-xs mx-auto sm:max-w-none flex justify-center"
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >

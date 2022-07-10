@@ -46,14 +46,14 @@ export default class Features extends React.Component {
                       02
                     </div>
                     <h3 className="text-base font-bold md:mb-4 md:hidden text-white">
-                      30% of Initial Mint and royalites contribured to DOA
+                      30% of Initial Mint and royalites contribured to DAO
                     </h3>
                   </div>
                 </div>
                 {/* <!-- hack to align on big screen. Hidden by default for mobile. Look above for mobile --> */}
                 <div>
                   <h3 className="hidden mb-4 text-lg font-bold md:block text-white">
-                    30% of Initial Mint and royalites contribured to DOA
+                    30% of Initial Mint and royalites contribured to DAO
                   </h3>
                   <p className="text-gray-300">
                     We want to give back to the commnuity for all of your
