@@ -17,10 +17,10 @@ export default class Features extends React.Component {
           <div
             className="flex grow flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
           >
-            <div className="rounded-l-full bg-orange-500 md:bg-transparent">
+            <div className="rounded-l-full bg-orange-400 md:bg-transparent">
               <div className="flex items-center space-x-2">
                 <div
-                  className="px-4 py-2 text-white rounded-full md:py-1 bg-foxOrange"
+                  className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-400"
                 >
                   01
                 </div>
@@ -45,10 +45,10 @@ export default class Features extends React.Component {
             className="flex grow flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
           >
             {/* <!-- heading --> */}
-            <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+            <div className="rounded-l-full bg-orange-400 md:bg-transparent">
               <div className="flex items-center space-x-2">
                 <div
-                  className="px-4 py-2 text-white rounded-full md:py-1 bg-foxOrange"
+                  className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-400"
                 >
                   02
                 </div>
@@ -74,14 +74,14 @@ export default class Features extends React.Component {
             className="flex grow flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
           >
             {/* <!-- heading --> */}
-            <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+            <div className="rounded-l-full bg-orange-400 md:bg-transparent">
               <div className="flex items-center space-x-2">
                 <div
-                  className="px-4 py-2 text-white rounded-full md:py-1 bg-foxOrange"
+                  className="px-4 py-2 text-white rounded-full md:py-1 bg-orange-400"
                 >
                   03
                 </div>
-                <h3 className="text-base font-bold md:mb-4 md:hidden">
+                <h3 className="text-base text-white font-bold md:mb-4 md:hidden">
                   Track company-wide progress
                 </h3>
               </div>
@@ -92,7 +92,7 @@ export default class Features extends React.Component {
                 40% of Initial Mint for Founders, Developers and Community
                 Growth
               </h3>
-              <p className="text-white">
+              <p className="text-gray-300">
                 A portion of the initial mint will go the team, initial fees,
                 promotions and future events to come. We plan to dedicate a
                 portion of this to growing the community and raising awareness.

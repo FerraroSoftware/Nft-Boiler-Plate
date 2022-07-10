@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
 import Hero from './react/Hero';
 import Features from './react/Features'
+import Footer from './react/Footer'
 import FAQ from './react/FAQ'
 import Testimonial from './react/Testimonial'
 import Header from './react/Header';
@@ -42,5 +43,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     <Testimonial></Testimonial>
     <RoadMap></RoadMap>
     <FAQ></FAQ>
+    <Footer></Footer>
   </>, document.getElementById('minting-dapp'));
 });
