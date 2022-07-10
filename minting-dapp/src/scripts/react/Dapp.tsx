@@ -195,15 +195,7 @@ export default class Dapp extends React.Component<Props, State> {
           <>
             {this.isContractReady() ?
               <>
-                <CollectionStatus
-                  userAddress={this.state.userAddress}
-                  maxSupply={this.state.maxSupply}
-                  totalSupply={this.state.totalSupply}
-                  isPaused={this.state.isPaused}
-                  isWhitelistMintEnabled={this.state.isWhitelistMintEnabled}
-                  isUserInWhitelist={this.state.isUserInWhitelist}
-                  isSoldOut={this.isSoldOut()}
-                />
+                
                 {!this.isSoldOut() ?
                   <MintWidget
                     networkConfig={this.state.networkConfig}
