@@ -55,8 +55,7 @@ export default class Stats extends React.Component {
               </h2>
               <p className="max-w-sm mt-6 text-base font-normal text-gray-400 sm:text-lg">
                 Foxes is a collection of 3,333 thoughtfully designed and
-                randomly generated NFTs on the Ethereum Blockchain by Mexican
-                artist Memo Angeles. Fox holders can participate in exclusive
+                randomly generated NFTs on the Ethereum Blockchain by Peruvian artist Bean. Fox holders can participate in exclusive
                 events, such as: NFT claims, raffles, giveaways and much, much
                 more. Don't forget, all Fox are special -- but some are
                 especially special. ... and the best is yet to come, check out
