@@ -9,7 +9,7 @@ export default class RoadMap extends React.Component {
         {/* section timeline */}
         <div className="max-w-2xl  mx-auto p-20  h-full ">
           {/* this is the line */}
-          <ol className="relative border-l-4 border-gray-200 dark:border-orange-400 lg:inset-1/2">
+          <ol className="relative border-l-4 border-gray-200 dark:border-orange-400 ">
             <li className="mb-10 ml-4  md:left-auto  lg:shadow-green-300 lg:shadow-xl lg:bg-green-900 lg:px-6 lg:py-4 lg:rounded-lg">
               <div className="absolute w-6 h-6 bg-gray-200 rounded-full mt-1.5 -left-3.5 border border-white dark:border-gray-900 dark:bg-orange-300"></div>
               <time className="mb-1 text-sm font-normal leading-none text-orange-400 dark:text-orange-400">
