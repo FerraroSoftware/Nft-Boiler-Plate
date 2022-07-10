@@ -103,7 +103,7 @@ export default class MintWidget extends React.Component<Props, State> {
                 >
                   {this.canMint() ? (
                     <div
-                      className={`flex flex-col items-center rounded-lg overflow-hidden bg-green-600 text-white shadow p-4 ${
+                      className={`flex flex-col shadow-xl items-center shadow-lime-300 rounded-lg overflow-hidden bg-green-900 text-white  p-6 w-screen ${
                         this.props.loading
                           ? "animate-pulse saturate-0 pointer-events-none"
                           : ""
@@ -152,6 +152,13 @@ export default class MintWidget extends React.Component<Props, State> {
                         >
                           Mint
                         </button>
+
+                        <div className="">
+                        <span className="">Supply: </span>
+                        {this.props.totalSupply}/{this.props.maxSupply}
+                      </div>
+
+                        
                       </div>
                     </div>
                   ) : (

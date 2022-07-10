@@ -32,6 +32,7 @@ export default class CollectionStatus extends React.Component<Props, State> {
     return (
       <>
       {/* this is where we want to make it more fancy for our hero section for what is going on. maybe flip hero into a new page via ternary operator */}
+      <h1 className="text-blue-500">Wallet Address:</h1>
         <div className="collection-status">
           <div className="user-address">
             <span className="label">Wallet address:</span>
