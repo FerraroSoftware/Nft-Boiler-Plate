@@ -18,8 +18,18 @@ export default class Footer extends React.Component {
                 <img src="/build/images/foxy.svg" className="h-8" alt="" />
               </div>
               {/* <!-- social links container --> */}
-              <div className="flex justify-center space-x-4">
-                {/* <!-- link 1 --> */}
+              
+            </div>
+            {/* <!-- list container --> */}
+            <div className="flex justify-around space-x-32">
+              <div className="flex flex-row space-x-3 text-white">
+              <a href="">
+                  <img
+                    src="/build/images/icon-facebook.svg"
+                    alt=""
+                    className="h-8"
+                  />
+                </a>
                 <a href="">
                   <img
                     src="/build/images/icon-facebook.svg"
@@ -27,54 +37,21 @@ export default class Footer extends React.Component {
                     className="h-8"
                   />
                 </a>
-                {/* <!-- link 2 --> */}
+
                 <a href="">
                   <img
-                    src="/build/images/icon-youtube.svg"
+                    src="/build/images/icon-facebook.svg"
                     alt=""
                     className="h-8"
                   />
                 </a>
-                {/* <!-- link 3 --> */}
+
                 <a href="">
                   <img
-                    src="/build/images/icon-twitter.svg"
+                    src="/build/images/icon-facebook.svg"
                     alt=""
                     className="h-8"
                   />
-                </a>
-                {/* <!-- link 4 --> */}
-                <a href="">
-                  <img
-                    src="/build/images/icon-pinterest.svg"
-                    alt=""
-                    className="h-8"
-                  />
-                </a>
-                {/* <!-- link 5 --> */}
-                <a href="">
-                  <img
-                    src="/builds/images/icon-instagram.svg"
-                    alt=""
-                    className="h-8"
-                  />
-                </a>
-              </div>
-            </div>
-            {/* <!-- list container --> */}
-            <div className="flex justify-around space-x-32">
-              <div className="flex flex-row space-x-3 text-white">
-                <a href="" className="hover:text-orange-400">
-                  About
-                </a>
-                <a href="" className="hover:text-orange-400">
-                  Utility
-                </a>
-                <a href="" className="hover:text-orange-400">
-                  RoapMap
-                </a>
-                <a href="" className="hover:text-orange-400">
-                  FAQ
                 </a>
               </div>
             </div>

@@ -82,7 +82,41 @@ Only spend money if you can afford it!
                 </p>
               </div>
             </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4">
+                <p className="text-xl font-semibold text-white">
+                What is Ethereum?
+
+
+                </p>
+                <p className="mt-4 text-base text-gray-400">
+                Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications. Learn more on ethereum.org
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4">
+                <p className="text-xl font-semibold text-white">
+                Sounds awesome - How do I get involved?
+
+
+                </p>
+                <p className="mt-4 text-base text-gray-400">
+                A great place to start is our Discord, home to a very large and very active community of Fox enthusiasts. You don't need to be a Fox holder to join us there! All are welcome to jump into the conversation, let us know your ideas, and hang out with many others who like the bears!
+                </p>
+              </div>
+            </div>
           </div>
+
+          
 
           <div className="flex items-center justify-center mt-12 md:mt-20">
             <div className="px-8 py-4 text-center bg-gray-800 rounded-full">
