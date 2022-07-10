@@ -8,6 +8,7 @@ import Footer from './react/Footer'
 import FAQTwo from './react/FAQTwo'
 import FAQ from './react/FAQ'
 import Team from './react/Team'
+import Stats from './react/Stats'
 import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import NetworkConfigInterface from '../../../smart-contract/lib/NetworkConfigInterface';
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     <Header></Header>
     <Dapp />
     <Features></Features>
+    <Stats></Stats>
     <Team></Team>
     <RoadMap></RoadMap>
     {/* <FAQ></FAQ> */}

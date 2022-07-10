@@ -25,14 +25,14 @@ export default class Footer extends React.Component {
               <div className="flex flex-row space-x-3 text-white">
               <a href="">
                   <img
-                    src="/build/images/icon-facebook.svg"
+                    src="/build/images/icon-twitter.svg"
                     alt=""
                     className="h-8"
                   />
                 </a>
                 <a href="">
                   <img
-                    src="/build/images/icon-facebook.svg"
+                    src="/build/images/icon-instagram.svg"
                     alt=""
                     className="h-8"
                   />
@@ -40,7 +40,7 @@ export default class Footer extends React.Component {
 
                 <a href="">
                   <img
-                    src="/build/images/icon-facebook.svg"
+                    src="/build/images/icon-youtube.svg"
                     alt=""
                     className="h-8"
                   />
