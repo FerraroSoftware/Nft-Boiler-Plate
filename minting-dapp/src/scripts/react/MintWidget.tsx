@@ -79,7 +79,7 @@ export default class MintWidget extends React.Component<Props, State> {
             {/* Section header */}
             <div className="text-center pb-12 md:pb-16">
               <h1
-                className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-white"
+                className="text-6xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-white"
                 data-aos="zoom-y-out"
               >
                 Join the Fox{" "}

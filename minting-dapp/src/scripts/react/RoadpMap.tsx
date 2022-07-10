@@ -8,6 +8,10 @@ export default class RoadMap extends React.Component {
 
         {/* section timeline */}
         <div className="max-w-2xl  mx-auto p-20  h-full ">
+        <h2 className="text-6xl underline font-bold text-center leading-tight pt-2 pb-6 mb-3
+                          bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-300">
+              ROADMAP
+            </h2>
           {/* this is the line */}
           <ol className="relative border-l-4 border-gray-200 dark:border-orange-400 ">
             <li className="mb-10 ml-4  md:left-auto  lg:shadow-green-300 lg:shadow-xl lg:bg-green-900 lg:px-6 lg:py-4 lg:rounded-lg">

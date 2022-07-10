@@ -8,7 +8,8 @@ export default class Team extends React.Component {
           {/* <!-- Container to heading and testm blocks --> */}
           <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
             {/* <!-- Heading --> */}
-            <h2 className="text-4xl underline font-bold text-center text-white">
+            <h2 className="text-6xl underline font-bold text-center leading-tight
+                          bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-300">
               THE FOX DEN
             </h2>
             {/* <!-- Testimonials Container --> */}

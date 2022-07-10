@@ -6,7 +6,8 @@ export default class FAQTwo extends React.Component {
       <section className="py-10  sm:py-16 lg:py-24">
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+            <h2 className="text-3xl font-bold leading-tight  sm:text-4xl lg:text-5xl
+                          bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-300">
               Questions & Answers
             </h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-300">
