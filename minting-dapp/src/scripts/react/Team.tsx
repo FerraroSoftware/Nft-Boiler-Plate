@@ -1,10 +1,10 @@
 import React from "react";
 
-export default class Testimonial extends React.Component {
+export default class Team extends React.Component {
   render() {
     return (
       <>
-        <section id="testimonials">
+        <section id="team">
           {/* <!-- Container to heading and testm blocks --> */}
           <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
             {/* <!-- Heading --> */}

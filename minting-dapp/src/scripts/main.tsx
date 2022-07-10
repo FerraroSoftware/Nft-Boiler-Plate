@@ -7,7 +7,7 @@ import Hero from './react/Hero';
 import Features from './react/Features'
 import Footer from './react/Footer'
 import FAQ from './react/FAQ'
-import Testimonial from './react/Testimonial'
+import Team from './react/Team'
 import Header from './react/Header';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import NetworkConfigInterface from '../../../smart-contract/lib/NetworkConfigInterface';
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     loading={this.state.loading}></Hero> */}
     <Dapp />
     <Features></Features>
-    <Testimonial></Testimonial>
+    <Team></Team>
     <RoadMap></RoadMap>
     <FAQ></FAQ>
     <Footer></Footer>
