@@ -20,14 +20,15 @@ https://rinkeby.etherscan.io/address/0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53#
 - Header - Has connect to wallet
 - Hero Section - Includes Minting button when live
 - Features Section
+- Stats
 - Team
 - Roadmap
+- FAQ
+- Footer
 
 ### TODO:
 
-- Add remaining sections of website
 - enable light/dark mode
-- figure out how to show mint button pretty
 
 ## Main features
 
