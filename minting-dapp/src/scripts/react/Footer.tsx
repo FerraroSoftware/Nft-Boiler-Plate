@@ -40,7 +40,7 @@ export default class Footer extends React.Component {
 
                 <a href="">
                   <img
-                    src="/build/images/icon-youtube.svg"
+                    src="/build/images/icon-opensea2.svg"
                     alt=""
                     className="h-8"
                   />
@@ -48,7 +48,7 @@ export default class Footer extends React.Component {
 
                 <a href="">
                   <img
-                    src="/build/images/icon-facebook.svg"
+                    src="/build/images/icon-discord.svg"
                     alt=""
                     className="h-8"
                   />
