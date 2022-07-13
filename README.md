@@ -46,3 +46,20 @@ https://rinkeby.etherscan.io/address/0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53#
 - Etherscan free API key _(optional: used for the automated contract verificiation, as well as retrieving the current values for gas cost estimation)_
 - Infura free basic plan or higher _(optional: used by the CLI commands in order to perform operations on real blockchains, you can skip this if you deploy and manage your contract manually)_
 - Coin Market Cap free API key _(optional: used for retrieving the current token price for gas cost estimation in USD)_
+
+#### Helpful tips:
+
+1. Accessing elements, put above class
+
+```
+ export function initFunction() {
+  const element = document.getElementById("menu-btn");
+  element?.addEventListener("click", listenerFunction);
+}
+
+function listenerFunction(this: HTMLElement, ev: Event) {
+  ev.preventDefault();
+  this.style.backgroundColor = "red";
+  this.toggleAttribute("open")
+}
+```
