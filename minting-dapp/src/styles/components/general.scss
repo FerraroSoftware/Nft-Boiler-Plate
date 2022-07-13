@@ -1,8 +1,9 @@
 body {
   @apply p-6;
+  @apply scroll-smooth;
   // @apply min-h-screen;
 
-  // @apply font-sans;
+  @apply font-sans;
 
   // Simple background with color gradient
   // @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;

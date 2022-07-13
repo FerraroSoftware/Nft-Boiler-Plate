@@ -61,7 +61,7 @@ export default class Team extends React.Component {
               </div>
 
               {/* <!-- Testimonial 4--> */}
-              <div className="flex flex-col shadow-xl  shadow-orange-400 items-center mb-10 p-6 space-y-6 rounded-lg bg-green-900 transform hover:scale-105 hover:rounded-xl duration-200 md:w-1/3">
+              <div className="flex flex-col shadow-xl  shadow-orange-400 items-center mb-10 p-6 space-y-6 rounded-lg bg-green-900 transform hover:scale-105 hover:translate-y-3  hover:rounded-xl duration-200 md:w-1/3">
                 <img
                   src="/build/images/bluefox.svg"
                   className="w-24 -mt-14"
