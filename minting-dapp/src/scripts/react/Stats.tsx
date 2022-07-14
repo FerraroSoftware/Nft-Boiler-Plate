@@ -50,7 +50,7 @@ export default class Stats extends React.Component {
             </div>
 
             <div className="relative w-full p-6 sm:p-10 lg:py-16 lg:px-20 md:w-1/2 lg:w-2/3">
-              <h2 className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl">
+              <h2 className="text-3xl font-sans font-normal text-white sm:text-4xl lg:text-5xl">
                 3,333 Foxes
               </h2>
               <p className="max-w-sm mt-6 text-base font-normal text-gray-400 sm:text-lg">

@@ -26,7 +26,7 @@ export default class Features extends React.Component {
                   </div>
                 </div>
                 <div>
-                  <h3 className="hidden mb-4 text-lg font-bold md:block text-white">
+                  <h3 className="hidden font-sans mb-4 text-lg font-bold md:block text-white">
                     30% of Initial Mint Donated to Save a Fox
                   </h3>
                   <p className="text-gray-300">

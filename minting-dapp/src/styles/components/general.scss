@@ -3,7 +3,7 @@ body {
   @apply scroll-smooth;
   // @apply min-h-screen;
 
-  @apply font-sans;
+  @apply font-mono;
 
   // Simple background with color gradient
   // @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
@@ -69,8 +69,9 @@ input[type=text] {
   @apply py-2 px-4;
 
   @apply rounded-full;
-  
-  @apply font-mono font-semibold;
+  @apply font-semibold;
+  // @apply font-mono font-semibold;
+  // @apply font-sans font-semibold;
   @apply text-txt_input-txt;
   @apply bg-txt_input-bg;
   @apply border border-txt_input-border;

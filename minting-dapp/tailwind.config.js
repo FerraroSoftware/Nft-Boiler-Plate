@@ -1,12 +1,13 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-  mode: 'jit',
-  content: [
-    './src/**/*.tsx',
-    './public/index.html',
-  ],
+  mode: "jit",
+  content: ["./src/**/*.tsx", "./public/index.html"],
   theme: {
+    fontFamily: {
+      sans: ["Chelsea Market", "sans-serif"],
+      mono: ["David Libre", "monospace"],
+    },
     extend: {
       colors: {
         // General
@@ -71,7 +72,7 @@ module.exports = {
           focus_border: colors.indigo[300],
           placeholder_txt: colors.indigo[600],
         },
-        
+
         // Whitelist proof widget
         wl_message: {
           txt: colors.slate[800],
