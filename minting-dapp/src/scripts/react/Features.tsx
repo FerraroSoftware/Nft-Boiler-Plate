@@ -26,7 +26,7 @@ export default class Features extends React.Component {
                   </div>
                 </div>
                 <div>
-                  <h3 className="hidden font-sans mb-4 text-lg font-bold md:block text-white">
+                  <h3 className="hidden  mb-4 text-2xl font-bold md:block text-white">
                     30% of Initial Mint Donated to Save a Fox
                   </h3>
                   <p className="text-gray-300">
@@ -52,7 +52,7 @@ export default class Features extends React.Component {
                 </div>
                 {/* <!-- hack to align on big screen. Hidden by default for mobile. Look above for mobile --> */}
                 <div>
-                  <h3 className="hidden mb-4 text-lg font-bold md:block text-white">
+                  <h3 className="hidden mb-4 text-2xl font-bold md:block text-white">
                     30% of Initial Mint and royalites contribured to DAO
                   </h3>
                   <p className="text-gray-300">
@@ -77,7 +77,7 @@ export default class Features extends React.Component {
                 </div>
                 {/* <!-- hack to align on big screen. Hidden by default for mobile. Look above for mobile --> */}
                 <div>
-                  <h3 className="hidden mb-4 text-lg font-bold md:block text-white">
+                  <h3 className="hidden mb-4 text-2xl font-bold md:block text-white">
                     40% of Initial Mint for Founders, Developers and Community
                     Growth
                   </h3>

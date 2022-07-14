@@ -8,7 +8,7 @@ export default class RoadMap extends React.Component {
 
         {/* section timeline */}
         <div className="max-w-2xl  mx-auto p-20  h-full ">
-        <h2 className="text-6xl  font-sans font-bold text-center leading-tight pt-2 pb-6 mb-3
+        <h2 className="text-6xl  font-bold text-center leading-tight pt-2 pb-6 mb-3
                           bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-300">
               ROAD MAP
             </h2>
