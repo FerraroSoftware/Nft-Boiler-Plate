@@ -119,7 +119,7 @@ private isNotMainnet(): boolean
             OpenSea
           </a>
           <a href="#" className="hover:text-orange-400 text-white text-xl">
-            Story
+            Discord
           </a>
           <a href="#" className="hover:text-orange-400 text-white text-xl">
             RoapMap
