@@ -29,6 +29,8 @@ https://rinkeby.etherscan.io/address/0xFCaE0e3362F8EC6C55C07592FeAf905a1Bc5dA53#
 ### TODO:
 
 - enable light/dark mode
+- when collection is not ready formatting
+- when sold out formatting
 
 ## Main features
 
